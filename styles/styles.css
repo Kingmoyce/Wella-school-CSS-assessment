@@ -1,0 +1,49 @@
+html {
+	scroll-behavior: smooth;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: content-box;
+}
+
+:root {
+	--yellow: #ffbc4a;
+	--white: #ffffff;
+	--black: #000000;
+	--green: #cdf567;
+	--ash: #a9a9a9;
+}
+
+.yellow-text {
+	color: var(--yellow);
+}
+
+.yellow-bg {
+	background-color: var(--yellow);
+}
+.white-text {
+	color: var(--white) !important;
+}
+.white-bg {
+	background-color: var(--white);
+}
+.black-text {
+	color: var(--black);
+}
+.black-bg {
+	background-color: var(--black);
+}
+.green-text {
+	color: var(--green);
+}
+.green-bg {
+	background-color: var(--green) !important;
+}
+.ash-text {
+	color: var(--ash);
+}
+.ash-bg {
+	background-color: var(--ash);
+}
